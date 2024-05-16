@@ -11,7 +11,12 @@ const Home = () => {
 		<div>
 			<Navbar />
 			<Jumbotron />
-			<Card />
+			<div className="container-fluid col-lg-3">
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+			</div>	
 			<Footer />
 		</div>
 	)
