@@ -2,7 +2,7 @@ import React from "react";
 
     const MyCard = () => {
         return(
-            <div className="col-3">
+            <div className="col-sm-3">
                 <img src="https://th.bing.com/th/id/OIP.p7wteZi4gGKn8xf2J7kgrQHaEo?rs=1&pid=ImgDetMain" className="card-img-top" alt="Outer-Space"/>
                     <div className="card-body">
                         <h5 className="card-title">Outer Space</h5>

@@ -4,7 +4,7 @@ import MyCard from "./mycard";
 const Cards = () => {
     return(
             
-              <div class="row justify-content-center row-cols-sm-1 row-cols-xl-4">
+              <div class="row justify-content-center">
                     <MyCard />
                     <MyCard />
                     <MyCard />
