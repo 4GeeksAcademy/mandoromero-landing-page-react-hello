@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./mynavbar";
 import Jumbotron from "./myjumbotron";
-import Card from "./mycard";
+import Cards from "./cards";
 import Footer from "./footer";
 
 
@@ -11,12 +11,9 @@ const Home = () => {
 		<div>
 			<Navbar />
 			<Jumbotron />
-			<div className="container-fluid col-lg-3">
-				<Card />
-				<Card />
-				<Card />
-				<Card />
-			</div>	
+			<div className="m-3">
+				<Cards />
+			</div>
 			<Footer />
 		</div>
 	)
