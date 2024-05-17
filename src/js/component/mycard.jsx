@@ -4,7 +4,7 @@ import React from "react";
         const cardImage = props.cardImage
         const cardTitle = props.cardTitle
         return(
-            <div className="col-sm-3">
+            <div className="col-sm-3 500x350">
                 <img src={cardImage} className="card-img-top" alt="Outer-Space"/>
                     <div className="card-body">
                         <h5 className="card-title">{cardTitle}</h5>
